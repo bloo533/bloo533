@@ -1,0 +1,68 @@
+.contact-page {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-page h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    background: linear-gradient(30deg, #cdcdcf,  #ffffff) ;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centre les divs horizontalement */
+    gap: 70px; /* Espace entre les divs */
+    //border-radius: 5px;
+    //box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    //width: 150px;
+    //height: 150px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    //line-height: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.box h2 {
+    font-size: 20
+    px;
+    color: #f57d3d
+}
+
+
+.full-width {
+    flex-basis: 100%;
+    /* Fait passer cet élément sous l'image */
+}
+
+
+.container img {
+    width: 800px;
+    /* Taille fixe pour l’image */
+    height: auto;
+    /* Garde les proportions */
+    border-radius: 5px;
+    margin-right: 20px;
+  
+    
+    
+    
+
+}
+
+.map img{
+    width: 400px;
+    height: auto;
+}

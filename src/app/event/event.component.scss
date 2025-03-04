@@ -1,0 +1,67 @@
+.event {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permet au texte de passer en dessous si besoin */
+    align-items: flex-start;
+    /* Alignement en haut */
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.event img {
+    width: 400px;
+    /* Taille fixe pour l’image */
+    height: auto;
+    /* Garde les proportions */
+    border-radius: 5px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    /* Empêche l’image de rétrécir */
+
+}
+
+.content {
+    flex: 1;
+    /* Prend tout l'espace restant */
+    min-width: 400px;
+    /* Minimum pour que le texte passe sous l'image si besoin */
+}
+
+.full-width {
+    flex-basis: 100%;
+    /* Fait passer cet élément sous l'image */
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #f57d3d;
+
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #f57d3d;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+<div class="courses-page">
+    <h1>Les cours</h1>
+
+    @for (course of courses; track course.getTitle()) {
+    <app-course [course]="course" />
+    }
+</div>

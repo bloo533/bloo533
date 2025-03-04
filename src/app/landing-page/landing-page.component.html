@@ -1,0 +1,7 @@
+<div class="news-page">
+    <h1>Actualités du club</h1>
+
+    @for (article of news; track article.getTitle()) {
+    <app-news [news]="article" />
+    }
+</div>

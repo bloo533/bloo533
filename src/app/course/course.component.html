@@ -1,0 +1,12 @@
+<div class="course">
+    
+    <img src="{{ course.getPicutreUrl() }}" alt="Illustration du cours">
+    <div class="content">
+        <h2>{{ course.getTitle() }}</h2>
+        <h3>{{ course.getTimeslot()}}</h3>
+        @for (paragraph of course.getContent(); track paragraph) {
+            <p>{{ paragraph }}</p>
+        }
+
+    </div>
+</div>

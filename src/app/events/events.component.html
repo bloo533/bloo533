@@ -1,0 +1,7 @@
+<div class="events-page">
+    <h1>Les évènements</h1>
+
+    @for (event of events; track event.getTitle()) {
+    <app-event [event]="event" />
+    }
+</div>

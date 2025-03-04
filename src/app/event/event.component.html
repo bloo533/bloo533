@@ -1,0 +1,12 @@
+<div class="event">
+    
+    <img src="{{ event.getPictureUrl() }}" alt="Illustration de l'évènement">
+    <div class="content">
+        <h2>{{ event.getTitle() }}</h2>
+        <h3>{{ event.getDate() | date: 'dd MMMM yyyy à HH:mm' }}</h3>
+        @for (paragraph of event.getDescription(); track paragraph) {
+            <p>{{ paragraph }}</p>
+        }
+        <span class="pricing">Participation: {{ event.getPrice() | currency:'EUR' }} </span>
+    </div>
+</div>

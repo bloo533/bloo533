@@ -1,0 +1,38 @@
+/* Style général du header */
+.header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background: linear-gradient(90deg, #E33E20,  #f57d3d) ;
+
+    padding: 15px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.header h1 {
+    //margin-left: 80px;
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    /*
+    border-radius: 50%; /* Effet arrondi stylé */
+}
+
+
+/* Titre */
+.title {
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}

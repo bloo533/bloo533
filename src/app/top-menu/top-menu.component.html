@@ -1,0 +1,10 @@
+<!-- Barre de menu -->
+<nav class="menu-bar">
+    <ul>
+        @for (item of menuItems; track item.getText()) {
+            <li>
+                <a href="{{ item.getRoute() }}">{{ item.getText() }}</a>
+            </li>
+        }
+    </ul>
+</nav>
