@@ -16,7 +16,7 @@ export class EventsService {
             "\nLe club qui arrivera en tête du classement aura l'honneur d'organiser la prochaine édition.",
             "Repas possible sur place (frites, saucisses, boissons)."
         ], 
-        new Date('2025-05-29T08:00'), '/assets/images/challenge_2025.jpg',
+        new Date('2025-05-29T08:00'), 'assets/images/challenge_2025.jpg',
         20)
     ]
 

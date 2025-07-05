@@ -9,7 +9,7 @@ import { Address } from '../models/address';
 export class ContactInfoService {
 
   private contactInfo: ContactInfo  = new ContactInfo(
-    new Address("Club d'éducation canine de Vienne","3597, Montée Coupe Jarret", "38200", "VIENNE", "France","/assets/images/address_on_map.png"),
+    new Address("Club d'éducation canine de Vienne","3597, Montée Coupe Jarret", "38200", "VIENNE", "France","assets/images/address_on_map.png"),
     "06 74 03 50 61",
     "clubcaninvienne38200@gmail.com") ;
 

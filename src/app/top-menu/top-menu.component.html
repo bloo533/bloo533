@@ -3,7 +3,7 @@
     <ul>
         @for (item of menuItems; track item.getText()) {
             <li>
-                <a href="{{ item.getRoute() }}">{{ item.getText() }}</a>
+                <a routerLink="{{ item.getRoute() }}">{{ item.getText() }}</a>
             </li>
         }
     </ul>
