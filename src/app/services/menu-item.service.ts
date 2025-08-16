@@ -11,6 +11,7 @@ import { MenuItem } from '../models/menu-item';
         new MenuItem('Accueil', ''),
         new MenuItem('Les cours', '/courses'),
         new MenuItem('Les évènements', '/events'),
+        new MenuItem('L\'équipe', '/team'),
         new MenuItem('Contact', '/contact')
     ];
 

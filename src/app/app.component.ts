@@ -6,7 +6,7 @@ import { TopMenuComponent } from "./top-menu/top-menu.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, LandingPageComponent, TopMenuComponent],
+  imports: [RouterOutlet, HeaderComponent, TopMenuComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

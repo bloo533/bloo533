@@ -1,0 +1,30 @@
+<div class="team-member-card">
+    <div class="top-grid">
+        <img src="{{ teamMember.getPhotoUrl() }}" alt="Photo of {{ teamMember.getFullname() }}" class="photo">
+        <div class="content">
+            <h2>{{ teamMember.getFullname() }} </h2>
+            <p class="role">{{ teamMember.getRole() }}</p>
+        </div>
+    </div>
+    @if (teamMember.getCertifications().length > 0) {
+        <div class="certifications">
+            <h3>Diplômes & habilitations :</h3>
+            <ul>
+                @for (paragraph of teamMember.getCertifications(); track paragraph) {
+                <li>{{ paragraph }}</li>
+                }
+            </ul>
+        </div>
+    }
+    @if (teamMember.getPalmares().length > 0) {
+        <div class="palmares">
+            <h3>Palmarès :</h3>
+            <ul>
+                @for (paragraph of teamMember.getPalmares(); track paragraph) {
+                <li>{{ paragraph }}</li>
+                }
+            </ul>
+        </div>
+    }
+    
+</div>

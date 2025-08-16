@@ -1,0 +1,8 @@
+<div class="team-page">
+    <h1 class="title-bar">L'équipe</h1>
+    <div class="team-members">        
+        @for (member of team; track member.getFullname()) {
+            <app-team-member [teamMember]="member" />
+        }
+    </div>
+</div>

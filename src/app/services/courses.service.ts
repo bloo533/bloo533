@@ -17,7 +17,7 @@ export class CoursesService {
                 "Elle s'adresse à tous les propriétaires de chiots (dès 2 mois) et de jeunes chiens qui souhaitent bénéficier de cette méthode d'éducation pour leur animal.",
                 "Des moniteurs passionnés, formés pour éduquer votre chiot sous forme de jeux vous accueilleront et feront de cet apprentissage, la garantie d'une vie harmonieuse au sein de son foyer"
             ],
-            '/assets/images/puppy_school.png',
+            '/assets/images/courses/puppy_school.png',
             "Le samedi de 11h à 11h30"),
         new Course("L'éducation canine",
             [
@@ -26,7 +26,7 @@ export class CoursesService {
                 "Nous travaillerons l'obéissance, l'apprentissage de la marche en laisse, sans laisse, les positions de base, le rappel, le refus de l'appât et toutes les ordres qui vous faciliteront la vie.",
                 "Si besoin nous entamerons des exercices liés à des problemes d'aboiements, d'agressivité, de phobies, d'anxiété de séparation..."
             ],
-            '/assets/images/dog_school.png',
+            '/assets/images/courses/dog_school.png',
             'Le samedi de 14h à 15h'),
 
     ];

@@ -1,0 +1,66 @@
+.team-member-card {
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+
+}
+
+.top-grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    /* TEXTE à gauche, IMAGE à droite */
+    align-items: center;
+    /* aligne le haut des éléments */
+    gap: 12px;
+    /* espace entre texte et image */
+    padding: 16px;
+}
+
+.team-member-card img {
+    //display: flex;
+    width: 150px;
+    /* Taille fixe pour l’image */
+    height: auto;
+    /* Garde les proportions */
+    border-radius: 5px;
+    //margin-left: 12px;
+    //object-fit: cover;
+
+
+}
+
+.content {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.content h2 {
+    font-size: 20px;
+}
+
+
+
+.role {
+    font-size: 18px;
+    font-style: italic;
+    color: #f57d3d;
+    margin-top: 4px;
+}
+
+.certifications {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+ul {
+  list-style-type: square; /* carré */
+}
