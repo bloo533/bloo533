@@ -19,7 +19,7 @@ export class Course {
         return this.content;
     }
 
-    getPicutreUrl(): string {
+    getPictureUrl(): string {
         return this.pictureUrl;
     }
 

@@ -17,7 +17,7 @@ export class NewsArticle {
         return this.content;
     }
 
-    getPicutreUrl(): string {
+    getPictureUrl(): string {
         return this.pictureUrl;
     }
 }
