@@ -7,6 +7,9 @@
         @for (paragraph of event.getDescription(); track paragraph) {
             <p>{{ paragraph }}</p>
         }
-        <span class="pricing">Participation: {{ event.getPrice() | currency:'EUR' }} </span>
+        @if (event.getPrice() > 0) {
+            <span class="pricing">Participation: {{ event.getPrice() | currency:'EUR' }} </span>
+        }
+        
     </div>
 </div>

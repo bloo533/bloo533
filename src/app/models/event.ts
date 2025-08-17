@@ -7,7 +7,7 @@ export class Event {
     private pictureUrl !: string;
     private price: number;
 
-  constructor(title: string, description: string[], date: Date, pictureUrl: string, price: number) {
+  constructor(title: string, description: string[], date: Date, pictureUrl: string, price: number = 0) {
     this.title = title;
     this.description = description;
     this.date = date;   

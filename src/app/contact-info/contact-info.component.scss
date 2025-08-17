@@ -35,7 +35,7 @@
 }
 
 
-.container img {
+.map {
     width: 800px;
     /* Taille fixe pour l’image */
     height: auto;
@@ -43,13 +43,16 @@
     border-radius: 5px;
     margin-right: 20px;
   
-    
-    
-    
 
 }
 
 .map img{
     width: 400px;
     height: auto;
+}
+
+.facebook-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle; /* Aligne l'icône avec le texte */
 }

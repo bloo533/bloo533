@@ -11,7 +11,8 @@ export class ContactInfoService {
   private contactInfo: ContactInfo  = new ContactInfo(
     new Address("Club d'éducation canine de Vienne","3597, Montée Coupe Jarret", "38200", "VIENNE", "France","/assets/images/contact/address_on_map.png"),
     "06 74 03 50 61",
-    "clubcaninvienne38200@gmail.com") ;
+    "clubcaninvienne38200@gmail.com",
+    "https://www.facebook.com/profile.php?id=100077052884108") ;
 
     getContactInfo(): ContactInfo {
         return this.contactInfo;

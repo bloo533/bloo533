@@ -1,3 +1,23 @@
+.main-frame {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    align-items: start;
+    //background: linear-gradient(90deg, #E33E20,  #f57d3d) ;
+    min-width: 320px;
+    gap: 10px;
+}
+
+.bars {
+    display: block;
+    width: 100%;
+    height: auto;    
+    line-height: 28px;
+    
+}
+
+
+
+
 .main-title {
     text-align: center;
     font-family: 'Poppins', sans-serif;

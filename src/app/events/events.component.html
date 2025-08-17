@@ -1,5 +1,8 @@
 <div class="events-page">
     <h1 class="title-bar">Les évènements</h1>
+    @if (events.length === 0) {
+        <p class="no-events">Aucun évènement à venir pour le moment.</p>
+    }
 
     @for (event of events; track event.getTitle()) {
     <app-event [event]="event" />

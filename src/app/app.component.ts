@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./header/header.component";
 import { LandingPageComponent } from "./landing-page/landing-page.component";
 import { TopMenuComponent } from "./top-menu/top-menu.component";
+import { LogoComponent } from "./logo/logo.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, TopMenuComponent],
+  imports: [RouterOutlet, HeaderComponent, TopMenuComponent, LogoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

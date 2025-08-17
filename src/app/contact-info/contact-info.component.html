@@ -2,13 +2,17 @@
     <h1 class="title-bar">Nous contacter</h1>
     <div class="container">
         <div class="box">
-            <h2>Adresse</h2>
+            <h2>Nos coordonnées</h2>
             <p>
                 <!-- {{ contactInfo.getAddress().getName() }} <br />-->
                 {{ contactInfo.getAddress().getStreet() }}<br />
                 {{ contactInfo.getAddress().getZip() }} {{ contactInfo.getAddress().getCity() }}
             </p>
+            <p>{{ contactInfo.getPhone() }}</p>
+            <p>{{ contactInfo.getEmail() }}</p>
+            <p><a href="{{ contactInfo.getFacebookPage() }}" target="_blank"><img class="facebook-icon" src="/assets/images/contact/facebook.png" alt="Facebook" /></a></p>
         </div>
+        <!--
         <div class="box">
             <h2>Téléphone</h2>
             <p>{{ contactInfo.getPhone() }}</p>
@@ -18,9 +22,17 @@
             <h2>Email</h2>
             <p>{{ contactInfo.getEmail() }}</p>
         </div>
+        
+        <div class="box">
+            <h2>Facebook</h2>
+            <a href="{{ contactInfo.getFacebookPage() }}"></a>
+        </div>
+        -->
+        <img class="map" src="{{contactInfo.getAddress().getMapUrl()}}" alt="Carte de localisation" />
     </div>
+    <!--
     <div class="container">
-    <img src="{{contactInfo.getAddress().getMapUrl()}}" alt="Carte de localisation" />
-</div>
-
+        <img src="{{contactInfo.getAddress().getMapUrl()}}" alt="Carte de localisation" />
+    </div>
+    -->
 </div>

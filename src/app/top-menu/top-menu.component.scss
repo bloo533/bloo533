@@ -1,29 +1,36 @@
 .menu-bar {
     background-color: #333;
-    padding: 10px 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
     text-align: center;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    // responsive
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .menu-bar ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
+   // justify-content: center;
 }
 
 .menu-bar li {
-    margin: 0 15px;
+    margin: 5px 10px;
 }
 
 .menu-bar a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .menu-bar a:hover {

@@ -4,11 +4,13 @@ export class ContactInfo {
     private address !: Address;
     private phone !: string;
     private email !: string;
+    private facebookPage !: string;
 
-    constructor (address: Address, phone: string, email: string) {
+    constructor (address: Address, phone: string, email: string, facebookPage: string) {
         this.address = address;
         this.phone = phone;
         this.email = email;
+        this.facebookPage = facebookPage;
     }
 
     getAddress(): Address {
@@ -21,5 +23,9 @@ export class ContactInfo {
 
     getEmail(): string {
         return this.email;
+    }
+
+    getFacebookPage(): string {
+        return this.facebookPage;
     }
 }
